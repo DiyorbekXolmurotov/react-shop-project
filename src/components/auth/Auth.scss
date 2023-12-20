@@ -1,0 +1,152 @@
+.auth {
+  
+  &__heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 800;
+  }
+  &__input--name {
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    padding: 20px 10px;
+    outline: 5px solid transparent black;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__input--name::placeholder {
+    color: rgb(146, 145, 145);
+  }
+  &__input--email {
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    padding: 20px 10px;
+    outline: 5px solid transparent black;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__input--email::placeholder {
+    color: rgb(146, 145, 145);
+  }
+  &__input--password {
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    padding: 20px 10px;
+    outline: 5px solid transparent black;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__input--password::placeholder {
+    color: rgb(146, 145, 145);
+  }
+  &__btn {
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: rgb(5, 127, 197);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    // margin-bottom: 50px;
+  }
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  // justify-content: space-around;
+}
+
+.btn-auth {
+  display: inline-block;   
+  outline: 0;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  padding: 17px 30px;
+  border: 0;
+  color: #fff;
+  font-size: 17.5px;
+  border: 2px solid;
+  color: #000;
+  transition: 0.4s ease;
+  background-color: #0070d2;
+  font-weight: 800;
+  line-height: 30px;
+  // transition: background, color 0.1s ease-in-out;
+}
+
+.btn-auth:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-top: 240px;
+  margin: 15rem auto;
+  padding: 2rem;
+  border: 1px solid #888;
+  width: 100%;
+  border-radius: 7px;
+  max-width: 600px;
+}
+
+.btn-login {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  padding: 0 16px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  border: 1px solid #0070d2;
+  color: #0070d2;
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn-login:hover {
+  background-color: #f4f6f9;
+}
+
+.title-modal {
+  margin-bottom: 1rem;
+}
+
+.modal-items {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#root {
+  // margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

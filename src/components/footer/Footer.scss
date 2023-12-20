@@ -1,0 +1,33 @@
+.site-footer {
+  background-color: #7d5032;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  margin-top: 50px;
+  // padding-top: 200px;
+}
+
+.unk {
+  display: flex;
+  justify-content: space-around;
+  // text-align: center;
+  gap: 50px;
+
+  .internet-link-shop {
+    padding-top: 2px;
+    font-size: large;
+    // text-align: center;
+    color: #737373;
+    &:hover {
+      color: rgb(2, 255, 120);
+      transition: 0.4s ease;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .unk {
+    flex-direction: column;
+  }
+}

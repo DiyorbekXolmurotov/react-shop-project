@@ -1,0 +1,131 @@
+.section {
+  padding-top: 50px;
+  &__heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  &__layout {
+    width: 100%;
+    background-color: rgb(214, 9, 12);
+    height: 400px;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  &__user--box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__user--name {
+    color: rgb(231, 226, 226);
+    margin-bottom: 10px;
+  }
+  &__user--auth {
+    color: rgb(167, 163, 163);
+    margin-bottom: 10px;
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__btn {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #babfc3;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: #202223;
+    background: #ffffff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+  }
+
+  &__btn:hover {
+    background: #f6f6f7;
+    outline: 1px solid transparent;
+  }
+  &__input {
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid white;
+    outline: 1px solid transparent rgb(212, 205, 205);
+    border-radius: 10px;
+    background-color: #2400f0;
+    color: white;
+  }
+  &__btn--back {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+      -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #fff;
+    color: #222222;
+    margin-top: 20px;
+  }
+  &__btn--back:hover {
+    border-color: #000000;
+    background: #f7f7f7;
+  }
+  &__btn--save {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  &__btn--save:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  &__btn--boxes {
+    display: flex;
+    align-items: center;
+    float: right;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 448px) {
+  .section__user {
+    // max-width: 30px;]
+    flex-direction: column;
+  }
+  .section__layout {
+    height: 440px;
+  } 
+}
+
+@media (max-width: 430px) {
+  .section__layout {
+    height: 460px;
+  } 
+}

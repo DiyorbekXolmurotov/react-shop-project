@@ -1,0 +1,21 @@
+.categories {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  &__filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__search {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 20px 10px;
+    outline: 5px solid transparent black;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    font-size: larger;
+  }
+}

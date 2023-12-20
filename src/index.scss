@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container_small {
+  padding: 10px 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+body {
+  margin: 0;
+  background-image: url("../public/7720186.jpg");
+}
+
+// #root {
+//   margin-top: 150px;
+// }
+
+.loader {
+  margin: auto;
+  width: 48px;
+  height: 48px;
+  border: 5px solid black;
+  border-bottom-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+  animation: rotation 1s linear infinite;
+}
